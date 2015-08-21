@@ -47,16 +47,22 @@ interface VersionInterface
 
     /**
      * Get the release type of the version
+     *
+     * @return integer
      */
     public function getPreReleaseType();
 
     /**
      * Get the release identifier of the version
+     *
+     * @return string
      */
     public function getPreReleaseId();
 
     /**
      * Get the release of the version
+     *
+     * @return string
      */
     public function getPreRelease();
 
